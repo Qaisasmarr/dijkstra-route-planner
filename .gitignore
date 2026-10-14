@@ -1,0 +1,7 @@
+# Build output, IDE files, operating-system metadata
+/build/
+*.class
+.idea/
+.vscode/
+.DS_Store
+*.iml
