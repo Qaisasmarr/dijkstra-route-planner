@@ -1,6 +1,8 @@
 package com.qais.routeplanner;
 
-/** Undirected street segment; risk is a fictional additive score, not real-world safety data. */
+/** An undirected street segment with a distance and fictional additive risk score.
+ * Validated nonnegative weights support shortest-path routing in either direction.
+ */
 public record Road(String from, String to, double distanceKm, double risk) {
     public Road {
         if (from == null || to == null || from.equals(to)) {
