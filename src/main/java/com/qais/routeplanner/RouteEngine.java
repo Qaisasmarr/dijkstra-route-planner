@@ -11,7 +11,9 @@ import java.util.PriorityQueue;
 import java.util.Set;
 import java.util.function.ToDoubleFunction;
 
-/** Dijkstra shortest paths plus LARAC-style risk-constrained routing. */
+/** Routes through the graph using priority-queue Dijkstra searches.
+ * Risk-constrained routing applies a LARAC-style approximation and checks the budget.
+ */
 public final class RouteEngine {
     private static final double EPS = 1e-9;
     private static final int MAX_LARAC_ITERATIONS = 200;
