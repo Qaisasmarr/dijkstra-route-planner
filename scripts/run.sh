@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Compile the Java sources and launch the route planner from the project root.
 set -euo pipefail
 cd "$(dirname "$0")/.."
 mkdir -p build/classes
