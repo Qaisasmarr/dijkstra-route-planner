@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Compile production and test classes before running dependency-free assertions.
 set -euo pipefail
 cd "$(dirname "$0")/.."
 mkdir -p build/classes build/test-classes
