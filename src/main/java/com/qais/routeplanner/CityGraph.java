@@ -7,7 +7,9 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-/** A small undirected weighted graph with insertion-ordered locations. */
+/** Undirected weighted graph stored as adjacency lists.
+ * Locations retain insertion order so UI menus and demo output stay predictable.
+ */
 public final class CityGraph {
     private final Map<String, Location> locations = new LinkedHashMap<>();
     private final Map<String, List<Road>> adjacency = new LinkedHashMap<>();
