@@ -7,7 +7,9 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Optional;
 
-/** CLI and desktop entry point. Java 17+. */
+/** Entry point for both headless CLI routing and the Java Swing application.
+ * Selects the appropriate interface using supplied arguments and display availability.
+ */
 public final class Main {
     private Main() { }
 
