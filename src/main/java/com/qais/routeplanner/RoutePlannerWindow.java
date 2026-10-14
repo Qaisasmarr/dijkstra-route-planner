@@ -20,7 +20,9 @@ import java.awt.Font;
 import java.util.ArrayList;
 import java.util.List;
 
-/** Self-contained interactive desktop route planner with no external libraries. */
+/** Interactive Swing window for choosing endpoints, routing modes, and risk budgets.
+ * It delegates path calculations to the route engine and displays results on the map.
+ */
 public final class RoutePlannerWindow extends JFrame {
     private final CityGraph graph = DemoCity.build();
     private final RouteEngine engine = new RouteEngine(graph);
