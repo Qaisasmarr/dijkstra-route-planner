@@ -1,4 +1,4 @@
-# Build output, IDE files, operating-system metadata
+# Exclude compiled Java output, local editor settings, and operating-system metadata
 /build/
 *.class
 .idea/
