@@ -12,7 +12,9 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-/** Custom Swing map: route highlighting is drawn directly from Route.stops(). */
+/** Swing map renderer for roads, neighborhoods, and highlighted route stops.
+ * Drawing stays separate from the routing calculations performed by RouteEngine.
+ */
 public final class MapPanel extends JPanel {
     private static final Color BG = new Color(247, 249, 252);
     private static final Color ROAD = new Color(194, 203, 214);
