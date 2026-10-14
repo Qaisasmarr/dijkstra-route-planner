@@ -2,7 +2,9 @@ package com.qais.routeplanner;
 
 import java.util.List;
 
-/** Dependency-free assertions for the CLI, compatible with Java 17+. */
+/** Dependency-free Java 17 assertions for route engine behavior.
+ * Covers direct routes, constrained alternatives, disconnected maps, and invalid data.
+ */
 public final class RouteEngineTest {
     private static int checks = 0;
     private RouteEngineTest() { }
