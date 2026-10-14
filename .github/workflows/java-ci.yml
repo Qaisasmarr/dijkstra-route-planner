@@ -1,3 +1,4 @@
+# Verify Java compilation, algorithm tests, and a CLI smoke run on pushes and pull requests.
 name: Java CI
 on:
   push:
