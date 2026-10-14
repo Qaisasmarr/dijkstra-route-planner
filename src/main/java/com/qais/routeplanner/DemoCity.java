@@ -1,6 +1,8 @@
 package com.qais.routeplanner;
 
-/** A made-up 9-neighborhood map for learning and demonstrations. Not live map data. */
+/** A fictional nine-neighborhood map with reproducible distances and risk scores.
+ * The sample streets are intended for demonstrations and route-engine tests, not navigation.
+ */
 public final class DemoCity {
     private DemoCity() { }
 
