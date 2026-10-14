@@ -1,6 +1,6 @@
 # RouteLab — Dijkstra Route Planner (Java)
 
-A miniature, interactive route planner inspired by a **ConUHacks 9** route-finding project. Built in **Java 17+**, it models neighborhoods and roads as a weighted graph and lets you compare the shortest route, the lowest-risk route, and a distance-optimized route under a risk budget.
+A miniature, interactive route planner inspired by a **ConUHacks 9** route-finding project. Built in **Java 17+**, it models neighborhoods and roads as a weighted graph and lets you compare the shortest route, the lowest-risk route, and a distance-optimized route under a risk budget. The code separates graph modeling, routing, and the desktop interface so each part can be understood and tested independently.
 
 ![Interactive RouteLab map with a highlighted shortest path](docs/preview.png)
 
